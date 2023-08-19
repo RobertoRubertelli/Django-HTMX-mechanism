@@ -1,0 +1,27 @@
+
+<table>
+    <thead>
+        <tr>
+            <th>Company:</th>
+            <th>Nation:</th>
+
+        </tr>
+    </thead>
+    {% for myrow in mydata  %}
+
+        <tr>
+        <td>{{ myrow.company }}</td>
+        <td>{{ myrow.nation }}</td>
+        <td><button
+            hx-get="{% url 'editcompany' myrow.id %}"
+            hx-target="#myinclude"
+            >Edit</button></td>
+        <td><button
+            hx-delete="{% url 'deletecompany' myrow.id %}"
+            hx-target="#myinclude"
+            >Delete</button></td>
+
+        </tr>
+    
+    {% endfor %}
+</table>

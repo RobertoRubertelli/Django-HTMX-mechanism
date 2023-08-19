@@ -1,0 +1,16 @@
+{% load static %}
+
+<body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+<script src="{% static 'js/htmx.min.js'%}"></script>
+</body>
+
+{% block content %}
+
+{% endblock content %}
+
+{% block javascript %}
+
+
+
+{% endblock javascript %}
+

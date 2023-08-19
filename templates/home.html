@@ -1,0 +1,22 @@
+{% extends '_base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+<div>
+
+    <button
+    hx-get="{% url 'newcompany' %}"
+    hx-target="#myinclude"
+    >Add Company</button>
+
+
+    <div id="myinclude">
+        {% include "homepartial.html" %}
+    </div>
+
+</div>
+
+
+{% endblock content %}

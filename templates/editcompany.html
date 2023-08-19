@@ -1,0 +1,23 @@
+{% load static %}
+
+
+<div>
+    <button type="button" class="btn btn-success" 
+    hx-patch ="{% url 'editcompany' mydata.pk %}"
+    hx-target="#myinclude"
+    >x Close the Edit Form
+    </button>
+</div>
+
+
+<div>
+    <form 
+    class="form-group"
+    hx-post="{% url 'editcompany' mydata.pk %}"
+    hx-target='#myinclude'
+    >
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-success" >Update</button>
+                        
+    </form>                           
+</div>
