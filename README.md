@@ -4,7 +4,7 @@
 if you know Django but not HTMX or you are a beginner in studying Django, 
 the app is useful to understand the mechanism of HTMX.
 I've tried to make the code as simple as possible to highlight the mechanism of HTMX.
-Instal the Django-htmx library in the project is a must.
+Install the Django-htmx library in the project is a must.
 I've used in the templates the following hx command:
 hx-get
 hx-post
