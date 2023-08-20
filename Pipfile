@@ -4,9 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
-django-htmx = "*"
-python-dotenv = "*"
+django = "==4.2.4"
+django-htmx = "==1.16.0"
+python-dotenv = "==1.0.0"
 
 [dev-packages]
 
