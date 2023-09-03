@@ -17,6 +17,8 @@ Give a look in the _base.html to:
 body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'
 Without it Django will return an error 403 in every request.POST by HTMX
 
+You can run the code demo here [managepy.it/demo/](https://www.managepy.it/demo/)
+
 My Site [Managepy.it](https://www.managepy.it/)
 
 
