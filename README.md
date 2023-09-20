@@ -1,4 +1,5 @@
-# Django Htmx Mechanism[](https://github.com/RobertoRubertelli/Django-HTMX-mechanism)
+# Django Htmx Mechanism
+[Link](https://github.com/RobertoRubertelli/Django-HTMX-mechanism)
 
 ####
 if you know Django but not HTMX or you are a beginner in studying Django, 
