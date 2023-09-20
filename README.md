@@ -1,5 +1,5 @@
 # DJANGO-HTMX-MECHANISM
-[link](https://github.com/RobertoRubertelli/Django-HTMX-mechanism)
+[link to Git-Hub source files](https://github.com/RobertoRubertelli/Django-HTMX-mechanism)
 
 ####
 if you know Django but not HTMX or you are a beginner in studying Django, 
