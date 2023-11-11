@@ -20,7 +20,7 @@ Without it Django will return an error 403 in every request.POST by HTMX
 
 You can run the code demo here [managepy.it/demo/](https://www.managepy.it/demo/)
 
-You can see the tutorial [managepy.it/demo/mechanismtutorial](https://www.managepy.it/demo/mechanismtutorial)
+You can see the tutorial [managepy.it/demo/mechanismtutorial](https://www.managepy.it/mechanismtutorial)
 
 
 My Site [Managepy.it](https://www.managepy.it/)
